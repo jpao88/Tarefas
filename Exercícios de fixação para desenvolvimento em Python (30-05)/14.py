@@ -1,0 +1,5 @@
+#Leia uma quantidade de minutos (int) e converta para horas e minutos (ex.: 130 -> 2h10)
+min = int(input("Digite os minutos para convertir em horas:"))
+horas = str(min // 60)
+minutos_resto = str(min % 60)
+print("As horas e minutos são:", horas+"h"+minutos_resto)
